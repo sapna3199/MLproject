@@ -1,0 +1,17 @@
+Feature selection
+
+It is very crucial to understand about feature selection while learning machine learning. Adding redundant variables can reduce model's overall accuracy and adding more variables 
+can increase model's complexity. The goal of learning feature selection in machine learning is to get a best set of features for getting a best model. There are some feature 
+selection methods like filter methods, Forward feature selection, backward feature elimination, embedded methods.
+
+Filter methods pick up the important properties of the features measured with univariate statistics. These methods are faster and less computationally expensive 
+than wrapper methods. When dealing with high-dimensional data, it is computationally cheaper to use filter methods. Some of them are information gain, chi square test, correlation 
+coefficient.
+
+The wrapper methods of feature selection process is based on a specific machine learning algorithm we are trying to fit on a given dataset. 
+It follows a greedy search approach by evaluating all the possible combinations of features against the evaluation criterion. 
+The wrapper methods usually result in better predictive accuracy than filter methods.forward feature selection, backward feature elimination, recursive feature elimination 
+are some of the popular wrapper methods.
+
+Ensemble methods encompass the benefits of both the wrapper and filter methods by including interactions of features. Lasso regularization is one of the example of it.
+
